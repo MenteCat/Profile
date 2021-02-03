@@ -57,15 +57,26 @@ div {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  text-align: justify;
 }
 
+.social-icons: {
+  font-size: 30px;
+  width: 80px;
+}
+
+i:hover {
+  text-decoration: underline;
+  }
+
 a:link {
-  background-color: hsla(14, 100%, 53%, 0.1);
+  background-color: white;
 }
 
 a {
   color: hsla(14, 100%, 53%, 0.6);
   text-decoration: none;
+  font-size: 30px;
 }
 
 a:hover {
